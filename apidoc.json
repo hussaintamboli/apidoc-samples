@@ -1,4 +1,8 @@
 {
   "name": "apidoc example",
-  "description": "apiDoc example"
+  "description": "apiDoc example",
+  "order": [
+    "GetUser",
+    "addUser"
+  ]
 }
