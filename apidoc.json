@@ -1,5 +1,9 @@
 {
   "name": "apidoc example",
   "version": "0.1.0",
-  "description": "apiDoc example"
+  "description": "apiDoc example",
+  "order": [
+    "GetUser",
+    "addUser"
+  ]
 }

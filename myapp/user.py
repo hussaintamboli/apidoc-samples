@@ -33,3 +33,25 @@ class User:
 
     def get(self):
         pass
+
+    """
+    @apiDefine UserRegistrationError
+    @apiError UserRegistrationError Invalid <code>firstname</code>/<code>age</code>
+    """
+
+    """
+    @api {post} /user Create a user
+    @apiVersion 0.1.0
+    @apiName addUser
+    @apiGroup User
+
+    @apiParam {String} firstname First Name
+    @apiParam {String} [lastname] Last Name
+    @apiParam {Number} [age=18] Age
+
+    @apiSuccess {String} id Id of the User
+
+    @apiUse UserRegistrationError
+    """
+    def post(self):
+        pass
