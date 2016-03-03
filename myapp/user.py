@@ -5,6 +5,7 @@ class User:
 
     """
     @api {get} /user/:id Request User information
+    @apiVersion 0.1.0
     @apiName GetUser
     @apiGroup User
 
