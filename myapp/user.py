@@ -30,6 +30,7 @@ class User:
     {
         "error": "UserNotFound"
     }
+    @apiSampleRequest off
     """
 
     def get(self):
@@ -53,6 +54,7 @@ class User:
     @apiSuccess {String} id Id of the User
 
     @apiUse UserRegistrationError
+    @apiSampleRequest off
     """
     def post(self):
         pass
