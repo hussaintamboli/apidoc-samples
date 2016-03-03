@@ -31,3 +31,18 @@ class User:
 
     def get(self):
         pass
+
+    """
+    @api {post} /user Create a user
+    @apiVersion 0.1.0
+    @apiName addUser
+    @apiGroup User
+
+    @apiParam {String} firstname First Name
+    @apiParam {String} [lastname] Last Name
+    @apiParam {Number} [age=18] Age
+
+    @apiSuccess {String} id Id of the User
+    """
+    def post(self):
+        pass
