@@ -19,6 +19,13 @@ class User:
         "firstname": "John",
         "lastname": "Doe"
     }
+
+    @apiError UserNotFound The id of the User was not found.
+    @apiErrorExample Error-Response:
+    HTTP/1.1 404 Not Found
+    {
+        "error": "UserNotFound"
+    }
     """
 
     def get(self):
