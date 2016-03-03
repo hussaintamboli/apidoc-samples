@@ -2,9 +2,5 @@
   "name": "apidoc example",
   "version": "0.1.0",
   "description": "apiDoc example",
-  "order": [
-    "GetUser",
-    "addUser"
-  ],
   "sampleUrl": "http://localhost:5000/api/v2"
 }
