@@ -22,7 +22,8 @@ class User:
     }
 
     @apiUse AuthError
-    
+    @apiPermission admin
+
     @apiError UserNotFound The id of the User was not found.
     @apiErrorExample Error-Response:
     HTTP/1.1 404 Not Found
