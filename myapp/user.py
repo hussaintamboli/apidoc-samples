@@ -21,6 +21,8 @@ class User:
         "lastname": "Doe"
     }
 
+    @apiUse AuthError
+    
     @apiError UserNotFound The id of the User was not found.
     @apiErrorExample Error-Response:
     HTTP/1.1 404 Not Found
