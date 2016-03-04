@@ -1,12 +1,12 @@
 Go through each branch one by one and learn how to use `apidoc`
 
-Install
--------
+Install apidoc
+--------------
 
     npm install apidoc -g
 
 
-Run
----
+Generate doc
+------------
     apidoc -i myapp/ -o doc/ 
 
