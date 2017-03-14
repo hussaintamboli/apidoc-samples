@@ -42,7 +42,7 @@ class User:
     """
 
     """
-    @api {post} /user Create a user
+    @api {post} /uservalidation/ Create a user
     @apiVersion 0.1.0
     @apiName addUser
     @apiGroup User
@@ -54,7 +54,6 @@ class User:
     @apiSuccess {String} id Id of the User
 
     @apiUse UserRegistrationError
-    @apiSampleRequest off
     """
     def post(self):
         pass
