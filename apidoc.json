@@ -7,5 +7,5 @@
     "addUser"
   ],
   "json_body": true,
-  "sampleUrl": "http://localhost:7281/userservice"
+  "sampleUrl": "http://localhost"
 }

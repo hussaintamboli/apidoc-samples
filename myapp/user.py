@@ -47,9 +47,10 @@ class User:
     @apiName addUser
     @apiGroup User
 
-    @apiParam {String} firstname First Name
-    @apiParam {String} [lastname] Last Name
-    @apiParam {Number} [age=18] Age
+    @apiParam (body) {int} id
+    @apiParam (query string) {int} data
+
+    @apiContentType application/json
 
     @apiSuccess {String} id Id of the User
 
